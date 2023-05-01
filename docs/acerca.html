@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre mi</title>
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/all.min.css"/>
+</head>
+
+<body>
+    <header>
+        <div id="sound">
+            <audio id="myAudio">
+                <source src="./royalty.mp3"/>
+            </audio>
+            <i class="fab fa-soundcloud sound-cloud"></i>
+            <span>Sound</span>
+            <div class="on-off">
+                <span id="off">OFF</span>
+                <span id="on">ON</span>
+            </div>
+        </div>
+        <div class="btns-container">
+            <i class="fas fa-bars bars"></i>
+            <i class="fas fa-times times"></i>
+        </div>
+    </header>
+
+    <!-- sidebar -->
+    <aside class="aside">
+        <div class="aside-wrapper">
+            <div class="logo-section">
+                <a class="logo" rel="home" href="./index.html">
+                    <img src="./img/logo.png" alt="logo" />
+                    <span>Jorge</span>
+                </a>
+                <span>Economista & <br>Data Analyst</span>
+            </div>
+
+            <nav class="nav-links">
+                <a href="./acerca.html">Acerca de mi</a>
+                <a href="#">Work</a>
+                <a href="#">Blog</a>
+                <a href="./index.html#helo">Contact</a>
+            </nav>
+            <!-- social icons -->
+            <ul class="social-icons">
+                <li>
+                    <a href="https://www.linkedin.com/in/eco-jorge-orozco/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Kin-George" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/jorge.orozcodk/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <section id="section-about">
+        <div class="text-zone4">
+            <div id="header">
+                <h2>Jorge M. Orozco</h2>
+            </div>
+
+            <p>
+                Soy un economista graduado de la universidad del Norte. Interesado por temas de desarrollo económico
+                y pobreza.
+            </p>
+            <p>
+                Me caracterizo por ser una persona 
+                <a href="#" class="tech">autodidacta</a>
+                y con un fuerte sentido análitico y de resolución de problemas. Además, con un 
+                dominio de diferentes herramientas tecnologicas.
+            </p>
+            <p>
+                Actualmente me desempeño como trabajador por cuenta propia, y busco oportunidades de crecimiento
+                profesional tanto en el ambito investigativo como de desarrollo web.
+            </p>
+        </div>
+
+        <div class="skills-charts">
+            <div id="myCanvasContainer">
+                <canvas width="500" height="500" id="myCanvas">
+                    <ul id="tags">
+                        <li><a href="#" target="_blank">Autodidacta</a></li>
+                        <li><a href="#" target="_blank">Análitico</a></li>
+                        <li><a href="#" target="_blank">Pensamiento Critico</a></li>
+                        <li><a href="#" target="_blank">League of Legends</a></li>
+                        <li><a href="#" target="_blank">Anime</a></li>
+                        <li><a href="#" target="_blank">Programación</a></li>
+                        <li><a href="#" target="_blank">Inteligencia Artificial</a></li>
+                        <li><a href="#" target="_blank">Streamer</a></li>
+                        <li><a href="#" target="_blank">Rock</a></li>
+                        <li><a href="#" target="_blank">Rap</a></li>
+                        <li><a href="#" target="_blank">Pop</a></li>
+                        <li><a href="#" target="_blank">Poesia</a></li>
+                        <li><a href="#" target="_blank">Aprendizaje</a></li>
+                        <li><a href="#" target="_blank">Enseñanza</a></li>
+                        <li><a href="#" target="_blank">Gamer</a></li>
+                        <li><a href="#" target="_blank">Perfeccionista</a></li>
+                        <li><a href="#" target="_blank">Competitivo</a></li>
+                        <li><a href="#" target="_blank">Productivo</a></li>
+                    </ul>
+                </canvas>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js"></script>
+    <script src="./jquery.tagcanvas.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://hovertree.com/texiao/html5/index/hovertreewelcome.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
