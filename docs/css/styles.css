@@ -775,13 +775,13 @@ textarea {
 
 /*working section */
 #section-publi{
-    padding-left:10rem;
+    padding-left:2rem;
     margin-top:50px;
 }
 
 .container1{
     width:100%;
-    max-width:500px;
+    max-width:1100px;
     display:flex;
     flex-direction:row;
     align-items: center;
@@ -1028,6 +1028,10 @@ textarea {
         bottom: 100px;
     }
 
+    #section-publi{
+        padding-left:10rem;
+        margin-top:50px;
+    }
     .container1{
         width:100%;
         max-width:500px;
